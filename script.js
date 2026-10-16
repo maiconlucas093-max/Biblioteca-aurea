@@ -74,7 +74,7 @@ const LIVROS = [
     categoria: "Desenvolvimento pessoal",
     descricao:
       "A Arte da Guerra, de Sun Tzu, é um clássico sobre estratégia, liderança e inteligência. Ensina a vencer desafios, conhecer o adversário e alcançar objetivos com sabedoria, planejamento e sem conflitos desnecessários.",
-    imagem: "/A arte da Guerra.png",
+    imagem: "./A arte da Guerra.png",
     linkAfiliado: "https://go.hotmart.com/O107975038E",
     precoOriginal: 30.80,
     precoAtual: 27.90,
