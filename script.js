@@ -120,7 +120,7 @@ const LIVROS = [
     categoria: "Produtividade",
     descricao:
       "Como se tornar mais produtivo e ter mais tempo para as coisas que realmente importam pra você. Chega de procrastinar a vida felicidade, esse livro vai te ensinar como se tornar mais produtivo e ter mais tempo pra você e sua família.",
-    imagem: "/A arte da produtividade.jpg",
+    imagem: "./A arte da produtividade.jpg",
     linkAfiliado: "https://go.hotmart.com/K107982123S",
     precoOriginal: 45,
     precoAtual: 39.90,
@@ -143,7 +143,7 @@ const LIVROS = [
     categoria: "Saúde e bem-estar",
     descricao:
       " 10 Receitas Incríveis na Air Fryer — Mais Sabor e Praticidade no Seu Dia a Dia! Transforme sua rotina na cozinha com o e-book 10 Receitas Incríveis na Air Fryer! Descubra como preparar receitas deliciosas, práticas e fáceis de fazer, mesmo que você não tenha muita experiência na cozinha. Com este guia digital, você terá novas ideias para variar suas refeições e preparar pratos saborosos sem complicação.",
-    imagem: "/10 receitas incríveis na Air Fryer.jpg",
+    imagem: "./10 receitas incríveis na Air Fryer.jpg",
     linkAfiliado: "https://go.hotmart.com/O107889300C",
     precoOriginal: 15,
     precoAtual: 12,
@@ -166,7 +166,7 @@ const LIVROS = [
     categoria: "Marketing digital",
     descricao:
       "Neste livro você vai conhecer metódos de marketing, vendas e histórias sobre empreendedorismo que lhe ajudarão a subir de nível. São mais de 100 páginas em uma linguagem simples e direta. Aproveite e boa leitura!",
-    imagem: "/O Manual do Marketing eficiente z.jpg",
+    imagem: "./O Manual do Marketing eficiente z.jpg",
     linkAfiliado: "https://go.hotmart.com/E107982769G",
     precoOriginal: 55.00,
     precoAtual: 49.90,
@@ -189,7 +189,7 @@ const LIVROS = [
     categoria: "Marketing digital",
     descricao:
       "O marketing digital é essencial para o sucesso empresarial em um mundo cada vez mais conectado. Nosso curso oferece treinamento completo e atualizado sobre marketing digital, incluindo SEO, mídias sociais, anúncios online e muito mais..",
-    imagem: "/Curso de Marketing Digital.jpg",
+    imagem: "./Curso de Marketing Digital.jpg",
     linkAfiliado: "https://go.hotmart.com/E107983501F",
     precoOriginal: 23.40,
     precoAtual: 17.90,
@@ -212,7 +212,7 @@ const LIVROS = [
     categoria: "Desenvolvimento pessoal",
     descricao:
       "Este E-book é relacionado as principais áreas de Desenvolvimento pessoal como Mentalidade Espiritualidade, Desenvolvimento Físico e Financeiro. O caminho para iniciar uma transformação sendo aplicado cada passo sugerido no E-book o foco e a disciplina de fazer um pouco a cada dia o resultado acontecera.",
-    imagem: "/Desenvolver-se.jpg",
+    imagem: "./Desenvolver-se.jpg",
     linkAfiliado: "https://go.hotmart.com/E107983501F",
     precoOriginal: 35.80,
     precoAtual: 29.00,
@@ -236,7 +236,7 @@ const LIVROS = [
     categoria: "Desenvolvimento pessoal",
     descricao:
       " OCUIDADOR — O poder de cuidar sem se perder O Cuidador é um livro sobre empatia, generosidade, proteção e, principalmente, sobre a importância de aprender a cuidar dos outros sem abandonar a si mesmo. Ao longo desta jornada, você descobrirá como o arquétipo do Cuidador se manifesta nas relações, na família, nas amizades e na vida cotidiana. O livro explora tanto o lado saudável do cuidado — acolher, proteger, apoiar e estar presente — quanto sua sombra: a necessidade de ser indispensável, a dificuldade de dizer “não”, o medo de decepcionar e o excesso de responsabilidade pelos problemas dos outros. A obra também aborda uma questão essencial: quem cuida de quem cuida? Muitas pessoas estão tão acostumadas a oferecer ajuda que esquecem de reconhecer as próprias necessidades, limites, cansaço e desejos.",
-    imagem: "/Arquétipo, O Cuidador.jpg",
+    imagem: "./Arquétipo, O Cuidador.jpg",
     linkAfiliado: "https://go.hotmart.com/Y107896501H",
     precoOriginal: 32.97,
     precoAtual: 21.45,
@@ -259,7 +259,7 @@ const LIVROS = [
     categoria: "Desenvolvimento pessoal",
     descricao:
       "ARQUÉTIPOS — Por que você busca constantemente aprovação, liberdade, controle, segurança ou reconhecimento? Em “Arquétipos — O Mapa Invisível de Quem Somos”, você será convidado a olhar para dentro e reconhecer os padrões psicológicos que podem estar influenciando sua maneira de pensar, sentir e agir.",
-    imagem: "/Arquétipos.jpg",
+    imagem: "./Arquétipos.jpg",
     linkAfiliado: "https://go.hotmart.com/D107894697G",
     precoOriginal: 24.18,
     precoAtual: 21.45,
@@ -281,7 +281,7 @@ const LIVROS = [
     categoria: "Desenvolvimento pessoal",
     descricao:
       "O Amante — A arte de se conectar sem se perder é uma reflexão sobre o desejo humano de amar, pertencer, criar vínculos e experimentar a vida com intensidade. A obra apresenta o arquétipo do Amante como a capacidade de estabelecer conexões profundas não apenas nos relacionamentos românticos, mas também com pessoas, experiências, lugares, projetos e com a própria vida.",
-    imagem: "/Arquétipos O Amante.jpg",
+    imagem: "./Arquétipos O Amante.jpg",
     linkAfiliado: "https://go.hotmart.com/W107913791G",
     precoOriginal: 31.80,
     precoAtual: 21.45,
@@ -303,7 +303,7 @@ const LIVROS = [
     categoria: "Desenvolvimento pessoal",
     descricao:
       "O Explorador — A necessidade de liberdade, descoberta e novos horizontes Descubra o poder da liberdade, da curiosidade e do autoconhecimento em uma jornada de transformação pessoal. Neste livro, você vai explorar o desejo de mudança, a busca pela própria identidade e a coragem de descobrir novos caminhos Aprenda a diferenciar a verdadeira liberdade da fuga, a encontrar o equilíbrio entre independência e responsabilidade e a construir raízes sem abrir mão dos seus sonhos. Uma leitura inspiradora para quem deseja sair da zona de conforto, explorar novas possibilidades e descobrir que a maior jornada é aquela que nos leva ao encontro de nós mesmos.",
-    imagem: "/Arquétipos-O explorador.jpg",
+    imagem: "./Arquétipos-O explorador.jpg",
     linkAfiliado: "https://go.hotmart.com/X107895556E",
     precoOriginal: 32.12,
     precoAtual: 21.45,
