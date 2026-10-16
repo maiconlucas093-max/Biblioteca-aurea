@@ -97,7 +97,7 @@ const LIVROS = [
     autor: "Nome do autor",
     categoria: "Empreendedorismo",
     descricao: "Este livro de empreendedorismo é um guia inspirador para quem deseja transformar ideias em oportunidades e construir um negócio de sucesso. Ao longo de suas páginas, o leitor encontrará conhecimentos, estratégias e reflexões sobre planejamento, inovação, liderança, gestão financeira e desenvolvimento pessoal.",
-    imagem: "/Empreendedorismo o caminho do sucesso.jpg",
+    imagem: "./Empreendedorismo o caminho do sucesso.jpg",
     linkAfiliado: "https://go.hotmart.com/C107981953E",
     precoOriginal: 22.00,
     precoAtual: 19.00,
