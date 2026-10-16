@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="Biblioteca Áurea: uma curadoria de e-books digitais para expandir seus conhecimentos e transformar suas ideias.">
+  <meta property="og:title" content="Biblioteca Áurea | Conhecimento que transforma">
+  <meta property="og:description" content="Explore uma seleção especial de livros digitais.">
+  <title>Biblioteca Áurea — Conhecimento que transforma</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.85em' font-size='80'%3E%E2%9C%A6%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="topo">
+    <div class="header-inner container">
+      <a class="brand" href="#inicio" aria-label="Biblioteca Áurea — início">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        <span class="brand-copy">
+          <strong data-library-name>Biblioteca Áurea</strong>
+          <small>UMA CURADORIA DE CONHECIMENTO</small>
+        </span>
+      </a>
+
+      <button class="icon-button menu-toggle" id="menuToggle"
+        aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
+        <span aria-hidden="true">☰</span>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#biblioteca">Explorar e-books</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#populares">Mais populares</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" id="themeToggle"
+          aria-label="Alternar tema" title="Alternar tema">
+          <span id="themeIcon" aria-hidden="true">☼</span>
+        </button>
+        <a href="#biblioteca" class="header-cta">Explorar coleção <span>↗</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero section" id="inicio">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> UMA NOVA FORMA DE LER</div>
+          <h1>Conhecimento que transforma.<br><em>Leituras que elevam.</em></h1>
+          <p class="hero-description">
+            Ideias que inspiram, conhecimento que permanece.
+            Descubra uma seleção de e-books para acompanhar sua próxima transformação.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="#biblioteca">Explorar biblioteca <span>↗</span></a>
+            <a class="button button-outline" href="#destaques">Descobrir os destaques</a>
+          </div>
+          <div class="hero-note">
+            <span class="hero-note-icon" aria-hidden="true">✦</span>
+            <span>Uma coleção para mentes curiosas e ambiciosas.</span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Composição ilustrativa de livros">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="hero-spark spark-one">✧</div>
+          <div class="hero-spark spark-two">✦</div>
+          <div class="hero-book hero-book-back">
+            <span class="book-ornament">✳</span>
+            <span class="book-small">THE ART OF</span>
+            <span class="book-title">Quiet<br>Wisdom</span>
+            <span class="book-rule"></span>
+            <span class="book-author">A STUDY IN MINDFUL LIVING</span>
+          </div>
+          <div class="hero-book hero-book-front">
+            <span class="book-small">THE MODERN</span>
+            <span class="book-title">Golden<br>Mindset</span>
+            <span class="book-rule"></span>
+            <span class="book-ornament">✳</span>
+            <span class="book-author">IDEAS FOR A RICHER LIFE</span>
+          </div>
+          <div class="hero-art-caption">
+            <span class="caption-dot"></span>
+            <span>CAPAS ILUSTRATIVAS</span>
+          </div>
+        </div>
+      </div>
+      <div class="container hero-bottom">
+        <div class="hero-benefit"><span>✧</span><div><strong>Curadoria especial</strong><small>Conteúdo selecionado</small></div></div>
+        <div class="hero-benefit"><span>◇</span><div><strong>Leitura digital</strong><small>Acesse pela página do produto</small></div></div>
+        <div class="hero-benefit"><span>◎</span><div><strong>Explore no seu ritmo</strong><small>Descubra novos interesses</small></div></div>
+      </div>
+    </section>
+
+    <section class="featured-section section" id="destaques">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-line"></span> ESCOLHAS DA CASA</div>
+            <h2>Seleção <em>exclusiva</em></h2>
+            <p>Uma vitrine especial dos títulos selecionados para a sua jornada.</p>
+          </div>
+          <a class="text-link" href="#biblioteca">Ver toda a coleção <span>↗</span></a>
+        </div>
+        <div class="featured-grid" id="featuredGrid"></div>
+        <p class="section-empty" id="featuredEmpty" hidden>
+          Nossa seleção especial está sendo preparada. Volte em breve.
+        </p>
+      </div>
+    </section>
+
+    <section class="category-section section" id="categorias">
+      <div class="container">
+        <div class="section-heading compact-heading">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-line"></span> EXPLORE POR INTERESSE</div>
+            <h2>Um universo de <em>possibilidades</em></h2>
+          </div>
+        </div>
+        <div class="category-list" id="categoryList" aria-label="Categorias de e-books"></div>
+      </div>
+    </section>
+
+    <section class="library-section section" id="biblioteca">
+      <div class="container">
+        <div class="section-heading library-heading">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-line"></span> A BIBLIOTECA</div>
+            <h2>Encontre sua próxima <em>leitura</em></h2>
+            <p>Explore os títulos, descubra novos assuntos e escolha o conteúdo ideal para você.</p>
+          </div>
+          <div class="collection-stamp">
+            <span class="stamp-star">✳</span>
+            <span>COLEÇÃO<br><strong>ÁUREA</strong></span>
+          </div>
+        </div>
+
+        <div class="search-panel">
+          <label class="search-box" for="searchInput">
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <input id="searchInput" type="search" placeholder="Buscar por título, autor ou assunto..." autocomplete="off">
+            <button type="button" id="clearSearch" class="clear-search" aria-label="Limpar pesquisa" hidden>×</button>
+          </label>
+          <button class="button button-outline filter-favorites" id="favoritesToggle" aria-pressed="false">
+            <span aria-hidden="true">♡</span> Meus favoritos
+          </button>
+        </div>
+
+        <div class="filter-toolbar">
+          <div class="filter-group">
+            <label for="categoryFilter">Categoria</label>
+            <select id="categoryFilter">
+              <option value="">Todas as categorias</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="typeFilter">Coleção</label>
+            <select id="typeFilter">
+              <option value="all">Todos os e-books</option>
+              <option value="featured">Destaques</option>
+              <option value="popular">Mais populares</option>
+              <option value="new">Novidades</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="priceFilter">Faixa de preço</label>
+            <select id="priceFilter">
+              <option value="all">Todos os preços</option>
+              <option value="free">Gratuitos</option>
+              <option value="under50">Até R$ 50</option>
+              <option value="50to100">R$ 50 a R$ 100</option>
+              <option value="over100">Acima de R$ 100</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="ratingFilter">Avaliação mínima</label>
+            <select id="ratingFilter">
+              <option value="0">Todas as avaliações</option>
+              <option value="4">4 estrelas ou mais</option>
+              <option value="4.5">4,5 estrelas ou mais</option>
+            </select>
+          </div>
+          <div class="filter-group sort-group">
+            <label for="sortFilter">Ordenar por</label>
+            <select id="sortFilter">
+              <option value="relevance">Relevância</option>
+              <option value="priceAsc">Menor preço</option>
+              <option value="priceDesc">Maior preço</option>
+              <option value="rating">Maior avaliação</option>
+            </select>
+          </div>
+          <button class="reset-filters" id="resetFilters">Limpar filtros ↺</button>
+        </div>
+
+        <div class="results-heading">
+          <p id="resultsCount" aria-live="polite">Explorando a coleção</p>
+          <span class="results-note">CAPAS E CONTEÚDOS SUJEITOS À DISPONIBILIDADE DO PRODUTOR</span>
+        </div>
+
+        <div class="book-grid" id="bookGrid"></div>
+
+        <div class="empty-state" id="emptyState" hidden>
+          <span class="empty-icon" aria-hidden="true">⌕</span>
+          <h3>Nenhuma leitura encontrada</h3>
+          <p>Tente outra palavra ou remova alguns filtros para explorar mais títulos.</p>
+          <button class="button button-gold" id="emptyReset">Limpar pesquisa e filtros</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="popular-section section" id="populares">
+      <div class="container popular-layout">
+        <div class="popular-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> EM EVIDÊNCIA</div>
+          <h2>Ideias que merecem<br><em>um lugar na sua estante.</em></h2>
+          <p>
+            Conheça os títulos destacados em nossa coleção.
+            A seleção é atualizada de acordo com os produtos cadastrados na biblioteca.
+          </p>
+          <a class="button button-gold" href="#biblioteca" id="popularExplore">Explorar títulos <span>↗</span></a>
+        </div>
+        <div class="popular-display" id="popularDisplay"></div>
+      </div>
+    </section>
+
+    <section class="about-section section" id="sobre">
+      <div class="container about-layout">
+        <div class="about-symbol" aria-hidden="true">
+          <div class="symbol-ring"><span>✳</span></div>
+          <span class="symbol-label">LER · DESCOBRIR · EVOLUIR</span>
+        </div>
+        <div class="about-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> NOSSA ESSÊNCIA</div>
+          <h2>O conhecimento é um luxo que <em>permanece.</em></h2>
+          <p>
+            A Biblioteca Áurea nasceu para reunir conteúdos digitais em uma experiência
+            de descoberta agradável, organizada e inspiradora.
+          </p>
+          <p>
+            Aqui, cada título pode abrir uma nova perspectiva. Explore as categorias,
+            conheça os detalhes de cada publicação e consulte a página oficial antes de comprar.
+          </p>
+          <a class="text-link" href="#biblioteca">Descobrir a coleção <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section section" id="novidades">
+      <div class="container newsletter-inner">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> UMA PAUSA PARA INSPIRAR</div>
+          <h2>Seu próximo capítulo <em>começa aqui.</em></h2>
+          <p>Explore a coleção e encontre conteúdos que combinam com os seus interesses.</p>
+        </div>
+        <a class="button button-gold" href="#biblioteca">Encontrar meu e-book <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand">
+        <a class="brand" href="#inicio">
+          <span class="brand-mark" aria-hidden="true">✳</span>
+          <span class="brand-copy">
+            <strong data-library-name>Biblioteca Áurea</strong>
+            <small>UMA CURADORIA DE CONHECIMENTO</small>
+          </span>
+        </a>
+        <p>Conhecimento selecionado para quem acredita no poder de uma boa leitura.</p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Explore</h3>
+        <a href="#biblioteca">Todos os e-books</a>
+        <a href="#destaques">Seleção exclusiva</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#populares">Em evidência</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>A biblioteca</h3>
+        <a href="#sobre">Sobre nós</a>
+        <a href="#contato" id="contactLink">Contato</a>
+        <a href="#" data-policy="privacy">Política de privacidade</a>
+        <a href="#" data-policy="terms">Termos de uso</a>
+      </div>
+
+      <div class="footer-column footer-contact">
+        <h3>Conecte-se</h3>
+        <p id="footerEmail">Configure seu e-mail de contato no script.js.</p>
+        <div class="social-links" id="socialLinks"></div>
+      </div>
+    </div>
+
+    <div class="container affiliate-notice" id="contato">
+      <span class="notice-icon" aria-hidden="true">ⓘ</span>
+      <p>
+        <strong>Transparência:</strong> alguns links desta biblioteca são links de afiliados.
+        Se você realizar uma compra por meio deles, poderemos receber uma comissão, sem custo
+        adicional para você. As informações, condições e a conclusão da compra dependem da
+        página oficial do produto.
+      </p>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© <span id="currentYear"></span> <span data-library-name>Biblioteca Áurea</span>. Todos os direitos reservados.</span>
+      <a href="#topo">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo" title="Voltar ao topo">↑</button>
+
+  <dialog class="book-dialog" id="bookDialog" aria-labelledby="dialogTitle">
+    <button class="dialog-close" id="dialogClose" aria-label="Fechar detalhes">×</button>
+    <div class="dialog-content" id="dialogContent"></div>
+  </dialog>
+
+  <dialog class="info-dialog" id="infoDialog" aria-labelledby="infoTitle">
+    <button class="dialog-close" id="infoClose" aria-label="Fechar">×</button>
+    <div id="infoContent"></div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
